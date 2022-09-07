@@ -1,0 +1,23 @@
+{
+  "name": "firsthook",
+  "version": "1.0.0",
+  "description": "Learning how to make a webhook",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NabilNiloy/LeanringWebhook.git"
+  },
+  "author": "Nabil Niloy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NabilNiloy/LeanringWebhook/issues"
+  },
+  "homepage": "https://github.com/NabilNiloy/LeanringWebhook#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1"
+  }
+}
