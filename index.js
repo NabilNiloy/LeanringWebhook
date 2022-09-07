@@ -7,7 +7,7 @@ app.use(bodyParser.json());
 
 app.post('/', (req, res)  => {
     console.log(req.body); //printing the received payload
-    res.status(200).end;  //responding to the organization API
+    res.status(200).send("message recieved");  //responding to the organization API
 })
 
 const PORT = 4567;
